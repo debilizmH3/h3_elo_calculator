@@ -1,0 +1,245 @@
+@font-face {
+    font-family: csb;
+    src: url(csb.otf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(hd_fr_f.bmp);
+    color: white;
+    font-family: csb;
+    text-shadow: 0px 4px rgba(0,0,0,0.5);
+
+}
+
+
+div
+{
+    /* border: 1px solid red; */
+}
+
+.header
+{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    background-image: url(DlgDBlBk.bmp);
+    padding: 12px;
+    box-sizing: border-box;
+    user-select: none;
+    box-shadow: 0px -5px 30px rgba(0,0,0,0.9);
+}
+
+.title
+{
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.main
+{
+    border: 4px solid black;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 8px;
+    position: relative;
+    top: 156px;
+    margin:auto;
+    width: 1080px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.wrapper1
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.wrapper2
+{
+    
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+}
+
+::-webkit-scrollbar
+{
+    background-color: black;
+    width: 10px;
+}
+
+.template
+{
+    position: relative;
+
+    left: 10%;
+
+}
+
+.additional
+{
+    position: relative;
+
+    left: 10%;
+    display: flex;
+}
+
+.pts
+{
+    position: relative;
+
+    left: 10%;
+}
+
+
+input[type='checkbox']
+{
+    display: inline-block;
+    size: 50px;
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:black;
+    border-radius:5px;
+    margin-right: 30px;
+}
+input[type='checkbox']:checked
+{
+    background-color: white;
+    border: 5px solid black;
+}
+
+
+.score
+{
+    position: relative;
+    display: flex;
+    left: 10%;
+    flex-direction: column;
+
+}
+
+.score div
+{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+input[type='radio']
+{
+    display: inline-block;
+    size: 50px;
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:black;
+    border-radius:5px;
+    margin-right: 30px;
+}
+input[type='radio']:checked
+{
+    background-color: white;
+    border: 5px solid black;
+}
+
+
+
+
+
+div.template .text
+{
+    width: 300px;
+    
+
+}
+
+div.wrapper2 .text
+{
+    margin-left: 10%;
+    height: 40px;
+    border-bottom: 4px solid black;
+    margin-bottom: 10px;
+}
+
+
+.templateSelect
+{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    margin-top: 10px;
+    height: 40px;
+    width: 80%;
+
+    border: none;
+}
+
+
+input[type='number']
+{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 18px;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type='number']:focus
+{
+    outline:none;
+    border:  1px solid white;
+    border-radius: 8px;
+    
+}
+
+input[type='number']::placeholder
+{
+    font-family: csb;
+    font-size: 12px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+
+  ::selection {
+    color: rgb(42,40,37);
+    background: white;
+    text-shadow: none;
+  }
+
+

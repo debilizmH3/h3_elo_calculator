@@ -1,0 +1,100 @@
+<!---->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator ELO dla HotA</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class='header'>
+        <p class='title'>Kalkulator Punktów HotA</p>
+        <p class='text'>Policz ile dostaniesz punktów rankingowych za grę - wersja HotA 1.6.1</p>
+    </div>
+
+    <div class='main'>
+        <div class='wrapper1'>
+            <div class='template'>
+                <p class='text'>Wybierz Template lub Mapę: </p>
+                <select class='templateSelect'>
+                        <option value='20'>Jebus Cross</option>
+                        <option value='20'>Jebus King</option>
+                        <option value='20'>Jebus Outcast</option>
+                        <option value='60'>mt_Jebus</option>
+                        <option value='60'>mt_King</option>
+
+                        <option value='60'>h3dm1</option>
+                        <option value='30'>6lm10a</option>
+                        <option value='30'>Nostalgia</option>
+                        <option value='30'>Rally</option>
+                        <option value='60'>mt_Firewalk</option>
+
+
+                        <option value='22.5'>Diamond</option>
+                        <option value='60'>mt_Diamond</option>
+                        <option value='10'>Skirmish</option>
+                        <option value='10'>9-Day Wonder</option>
+                        <option value='5'>Arena</option>
+                        <option value='5'>Skilltest</option>
+
+                </select>
+            </div>
+
+            <div class='additional'>
+                <input type='checkbox' checked><p class='text'>Czy opcja <span style='font-style:italic;'>Tournament Rules</span><Br> jest włączona?</p>
+
+            </div>
+
+            <div class='pts'>
+                <p class='text'>Twoje Punkty ELO:</p>
+                <input type='number' class='ptsInput' placeholder="TWOJE PUNKTY" value="500">
+                
+                <p class='text'>Punkty ELO Przeciwnika:</p>
+                <input type='number' class='ptsInput' placeholder="PUNKTY PRECIWNIKA" value="500">
+
+
+            </div>
+
+            <div class='score'>
+                <div><input type='radio' value='1' name="1"><p class='text'>Wygrana</p></div>
+                <div><input type='radio' value='0.5' name="1"><p class='text'>Remis</p></div>
+                <div><input type='radio' value='0' name="1" checked><p class='text'>Przegrana</p></div>
+
+
+            </div>
+
+
+        </div>
+            
+
+
+            <div class='wrapper2'>
+
+                <p class='text'> <span id='yourPtsChange'>0</span> Punktów ELO.</p>
+                <p class='text'>Przeciwnik <span id='oppPtsChange'>0</span> Punktów ELO</p>
+                <p class='text'>Twoje punkty ELO po tej grze: <span id='yourTotalPts'>0</span></p>
+                <p class='text'>Punkty ELO przeciwnika po tej grze: <span id='oppTotalPts'>0</span></p>
+
+            </div>
+        
+        
+
+
+    </div>
+    <div class='footer'>
+        <p class='date'>13.11.2021</p>
+        <p class='author'>debilizm</p>
+        <div class='contacts'>Kontakt:
+            <p class='contact'>Discord: twujmlody_#7281</p>
+            <p class='contact'>E-Mail: fkdebilizm@gmail.com</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script src="script.js"></script>
+</html>
